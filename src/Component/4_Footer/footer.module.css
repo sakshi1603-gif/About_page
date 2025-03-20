@@ -1,0 +1,45 @@
+.footerbox{
+    margin-top: 30px;
+    background-color: #3B3531;
+}
+.container{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 400px;
+    display: flex;
+}
+
+.footersec{
+    margin: 100px;
+}
+.headersec{
+    margin: 30px;
+}
+.para_sec{
+    font-size: 20px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 30px ;
+} 
+
+
+.facebookimg{
+    height: 22px;
+}
+.twitterimg{
+    height: 22px;
+}
+.linkedinimg{
+    height: 30px;
+    /* margin-bottom: ; */
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}

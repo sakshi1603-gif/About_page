@@ -1,0 +1,50 @@
+.navigation{
+    height: 155px;
+    background-color: #3B3531;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    padding-left: 80px;
+    padding-top: 33px;
+}
+.h3{
+    font-size: 17px;
+    font-weight: 70;
+}
+.list{
+    padding-right: 200px;
+    padding-top: 33px;
+    display: flex;
+    list-style: none;
+    gap: 26px;
+    margin-top: 17px;
+}
+.images{
+    margin-top: 40px;
+    margin-right: 200px;
+    float:right;
+    display: flex;
+    gap: 5px;
+} 
+
+
+.facebookimg{
+    height: 22px;
+}
+.twitterimg{
+    height: 22px;
+}
+.linkedinimg{
+    height: 30px;
+    /* margin-bottom: ; */
+}
+/* .line{
+    
+    width: 100%;
+    height: 1px;
+    outline: 1px solid black;
+} */
