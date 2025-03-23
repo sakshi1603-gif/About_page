@@ -8,6 +8,7 @@
     margin: 0 auto;
     padding: 2rem 1rem;
     /* background-color: #84c225; */
+    color: #ffffff;
   }
   
   .footersec {
@@ -40,7 +41,7 @@
   
   .para_sec {
     line-height: 1.6;
-    color: black;
+    color: #ffffff;
   }
   
   /* Media Queries for Responsiveness */
