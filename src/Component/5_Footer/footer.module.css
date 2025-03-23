@@ -1,0 +1,109 @@
+/* footer.module.css */
+
+.footerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3B3531;
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+  
+  .Section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .facebookimg,
+  .twitterimg,
+  .linkedinimg {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .facebookimg:hover,
+  .twitterimg:hover,
+  .linkedinimg:hover {
+    transform: scale(1.1);
+  }
+  
+  .last {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .last a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .last a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Tablet */
+  @media screen and (max-width: 768px) {
+    .footerbox {
+      padding: 1.5rem 1rem;
+    }
+    
+    .images {
+      gap: 1.2rem;
+    }
+    
+    .facebookimg,
+    .twitterimg,
+    .linkedinimg {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    .footerbox {
+      padding: 1rem 0.5rem;
+    }
+    
+    .images {
+      gap: 1rem;
+    }
+    
+    .facebookimg,
+    .twitterimg,
+    .linkedinimg {
+      width: 30px;
+      height: 30px;
+    }
+    
+    .last {
+      font-size: 0.8rem;
+      padding: 0 1rem;
+    }
+  }
+  
+  /* Very Small Devices */
+  @media screen and (max-width: 320px) {
+    .images {
+      gap: 0.8rem;
+    }
+    
+    .facebookimg,
+    .twitterimg,
+    .linkedinimg {
+      width: 25px;
+      height: 25px;
+    }
+  }

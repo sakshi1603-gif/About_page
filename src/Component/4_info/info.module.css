@@ -1,0 +1,89 @@
+/* info.module.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .footersec {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .headersec {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .headersec span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .headersec:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 50px;
+    height: 3px;
+    background-color: grey;
+  }
+  
+  .para_sec {
+    line-height: 1.6;
+    color: black;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Tablet */
+  @media screen and (max-width: 992px) {
+    .container {
+      padding: 1.5rem;
+    }
+    
+    .footersec {
+      min-width: 250px;
+      padding: 0.75rem;
+    }
+  }
+  
+  /* Mobile Landscape */
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    
+    .footersec {
+      width: 100%;
+      min-width: 100%;
+    }
+    
+    .headersec {
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* Mobile Portrait */
+  @media screen and (max-width: 480px) {
+    .container {
+      padding: 0.75rem;
+    }
+    
+    .headersec {
+      font-size: 1.2rem;
+    }
+    
+    .para_sec {
+      font-size: 0.95rem;
+    }
+  }
